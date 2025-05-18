@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <button class="Button" onclick="location.href='Web.html'">Back</button><br>
+        <h1>Introduction To Web Application Development Quiz</h1>
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start Quiz</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+        <div id="results" class="hide">
+            <h2>Your Score: <span id="score">0</span></h2>
+            <p id="result-message"></p>
+        </div>
+    </div>
+    <script src="wc3.js"></script>
+</body>
+</html>

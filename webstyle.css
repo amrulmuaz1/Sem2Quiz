@@ -1,0 +1,23 @@
+/* styles.css */
+body {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    color: white;
+}
+
+#random-text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1;
+}
+
+@keyframes fade {
+    0% { opacity: 0; transform: translateY(-10px); }
+    50% { opacity: 1; transform: translateY(0px); }
+    100% { opacity: 0; transform: translateY(10px); }
+}

@@ -1,0 +1,6 @@
+\\..Quiz Web Project for Foundation in Computing – Semester 2..//
+This project is part of our Emerging Trends in Computing final assessment. We've designed an interactive quiz experience to make learning both fun and engaging. We hope you enjoy it as much as we enjoyed building it!
+
+Credit :
+HTML & CSS Development: Amrul Muaz (A2401829)
+JavaScript Development: Deepseek AI, with additional customization and integration.
